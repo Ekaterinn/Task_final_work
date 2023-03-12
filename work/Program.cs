@@ -27,5 +27,5 @@ string[] FirstArray(string[] inArray)
 }
 
 string[] array = new string[] {"cat", "2345", "^-^", "1"};
-string[] PrintArray = FirstArray(array);
-Console.WriteLine(String.Join(", ", PrintArray));
+string[] SecondArray = FirstArray(array);
+Console.WriteLine(String.Join(", ", SecondArray));
